@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap CheatSheet</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <style>
+      /* body {
+        background-color: rgb(176, 179, 179);
+      } */
+     .container {
+        font-size: 1.1rem;
+        font-family: 'Inconsolata', monospace;
+        line-height: 1.2rem;
+      }
+      th {
+        color: rgb(245, 168, 97);
+      }
+      tr {
+        color: rgb(148, 231, 131);
+      }
+      .btclass {
+        color: rgb(156, 214, 248);
+      }
+      .attr {
+        color: rgb(199, 199, 48);
+      }
+    </style>
+  </head>
+  <body class="bg-unmuted">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-6">
+          <table class="table table-dark table-sm table-borderless table-hover">
+            <thead>
+              <tr><th class="pl-1" style="width: 20%">Basic</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&lt;nav&gt;</td><td class="btclass">navbar</td></tr>
+              <tr><td></td><td class="btclass">navbar-expand-lg</td></tr>
+              <tr><td>&lt;ul&gt;</td><td class="btclass">navbar-nav</td></tr>
+              <tr><td>&lt;li&gt;</td><td class="btclass">nav-item</td></tr>
+              <tr><td>&lt;a&gt;</td><td class="btclass">nav-link</td></tr>
+            </tbody>
+          </table>
+          <table class="table table-dark table-sm table-borderless table-hover">
+            <thead>
+              <tr><th class="pl-1" style="width: 20%">Appearance</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&lt;a&gt;</td><td class="btclass">navbar-brand</td></tr>
+              <tr><td>&lt;nav&gt;</td><td class="btclass">navbar-light &nbsp;bg-light</td></tr>
+              <tr><td>&lt;span&gt;</td><td class="btclass">navbar-text</td></tr>
+            </tbody>
+          </table>
+          <table class="table table-dark table-sm table-borderless table-hover">
+            <thead>
+              <tr><th class="pl-1" style="width: 20%">Position</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&lt;nav&gt;</td><td class="btclass">fixed-top</td></tr>
+              <tr><td></td><td class="btclass">fixed-bottom</td></tr>
+              <tr><td></td><td class="btclass">sticky-top</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-6">
+          <table class="table table-dark table-sm table-borderless table-hover">
+            <thead>
+              <tr><th class="pl-1" style="width: 38%">Collapse</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&lt;div&gt;</td><td class="btclass">collapse</td></tr>
+              <tr><td>&lt;div&gt;</td><td class="btclass">navbar-collapse</td></tr>
+              <tr><td>&lt;button&gt;</td><td class="btclass">navbar-toggler</td></tr>
+              <tr><td class="attr">&nbsp; data-toggle</td><td>&nbsp; collapse</td></tr>
+              <tr><td class="attr">&nbsp; data-target</td><td>&nbsp; #target_name</td></tr>
+              <tr><td>&lt;span&gt;</td><td class="btclass">navbar-toggler-icon</td></tr>
+              <tr><td class="attr">&nbsp; id</td><td>&nbsp; target_name</td></tr>
+            </tbody>
+          </table>
+          <table class="table table-dark table-sm table-borderless table-hover">
+            <thead>
+              <tr><th class="pl-1" style="width: 38%">Dropdown</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&lt;li&gt;</td><td class="btclass">dropdown</td></tr>
+              <tr><td>&lt;a&gt;</td><td class="btclass">dropdown-toggle</td></tr>
+              <tr><td class="attr">&nbsp; data-toggle</td><td>&nbsp; dropdown</td></tr>
+              <tr><td class="attr">&nbsp; id</td><td>&nbsp; target_name</td></tr>
+              <tr><td>&lt;div&gt;</td><td class="btclass">dropdown-menu</td></tr>
+              <tr><td>&lt;div&gt;</td><td class="btclass">dropdown-driver</td></tr>
+              <tr><td class="attr">&nbsp; aria-labelledby</td><td>&nbsp; target_name</td></tr>
+              <tr><td>&lt;a&gt;</td><td class="btclass">dropdown-item</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
