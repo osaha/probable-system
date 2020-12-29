@@ -146,3 +146,14 @@ body {
 .fixed-background {
   padding: 10rem 0;
 }
+
+.emoji {
+  background-image: linear-gradient(to right, #4981b3, #ac2615);
+  min-height: 0!important;
+  padding: .4rem!important;
+}
+
+.emoji .fa-plug {
+  margin: 0 auto;
+  color: white;
+}
