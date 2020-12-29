@@ -20,6 +20,7 @@ body {
 .navbar-brand {
   display: flex;
   align-items: center;
+  letter-spacing: .1rem;
 }
 
 .navbar-brand img {
@@ -27,7 +28,7 @@ body {
 }
 
 .navbar-brand h2 {
-  
+  margin: 0;
 }
 
 .navbar {
