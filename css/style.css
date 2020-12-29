@@ -16,13 +16,18 @@ body {
   font-size: 1.1rem;
 }
 
-.navbar-brand img {
-    height: 3rem;
-}
 
 .navbar-brand {
   display: flex;
-  text-align:center;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar-brand h2 {
+  
 }
 
 .navbar {
